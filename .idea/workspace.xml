@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d019283c-a317-45f0-b08f-04310463e313" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/auth_app/my_sinatra2.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/my_middleware.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/my_sinatra.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day13/exercise.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day13/mongodb1.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day13/mongodb2.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day2_Day9exercise" afterPath="$PROJECT_DIR$/Day2_Day9exercise" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8/myrequestheroku" afterPath="$PROJECT_DIR$/Day8/myrequestheroku" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -29,10 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="my_sinatra2.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day12/auth_app/my_sinatra2.rb">
+      <file leaf-file-name="mongodb2.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day13/mongodb2.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="0.4568528">
+            <state line="15" column="33" selection-start="0" selection-end="536" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercise.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day13/exercise.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="39" selection-start="698" selection-end="698" vertical-scroll-proportion="0.7178841">
               <folding />
             </state>
           </provider>
@@ -51,10 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Day10/sinatraapp/views/ex1main.erb" />
-        <option value="$PROJECT_DIR$/Day10/sinatraapp/views/ex1result.erb" />
-        <option value="$PROJECT_DIR$/Day10/sinatraapp/sinatraex1.rb" />
-        <option value="$PROJECT_DIR$/Day10/sinatraapp/config.ru" />
         <option value="$PROJECT_DIR$/Day10/BonusStockApp/config.ru" />
         <option value="$PROJECT_DIR$/Day10/BonusStockApp/quotes.rb" />
         <option value="$PROJECT_DIR$/Day10/BonusStockApp/stylesheets/style.css" />
@@ -67,6 +72,10 @@
         <option value="$PROJECT_DIR$/Day12/my_sinatra.rb" />
         <option value="$PROJECT_DIR$/Day12/my_middleware.rb" />
         <option value="$PROJECT_DIR$/Day12/auth_app/my_sinatra2.rb" />
+        <option value="$PROJECT_DIR$/Day13/mongo1.rb" />
+        <option value="$PROJECT_DIR$/Day13/mongodb1.rb" />
+        <option value="$PROJECT_DIR$/Day13/mongodb2.rb" />
+        <option value="$PROJECT_DIR$/Day13/exercise.rb" />
       </list>
     </option>
   </component>
@@ -102,16 +111,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,40 +139,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day12" />
+              <option name="myItemId" value="Day13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Day12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Day11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -184,11 +161,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editor.preferences.smartKeys" />
+    <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -201,67 +178,7 @@
       <recent name="$PROJECT_DIR$/Day10/exercise1" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.myapp3">
-    <configuration default="false" name="stringtest" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="RubyLearning" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/Day8" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Day8/stringtest.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="myapp1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="RubyLearning" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/Day10/sinatraapp" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Day10/sinatraapp/myapp1.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="myapp2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="RubyLearning" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/Day10/sinatraapp" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Day10/sinatraapp/myapp2.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.exercise">
     <configuration default="false" name="sinatraex1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="RubyLearning" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -297,6 +214,66 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Day10/heroku_exday10/myapp3.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mongodb1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="RubyLearning" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/Day13" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Day13/mongodb1.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mongodb2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="RubyLearning" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/Day13" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Day13/mongodb2.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exercise" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="RubyLearning" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/Day13" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Day13/exercise.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -423,11 +400,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.stringtest" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.myapp1" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.myapp2" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.sinatraex1" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.myapp3" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.sinatraex1" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.myapp3" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.mongodb1" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.mongodb2" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.exercise" />
     </list>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
@@ -496,28 +473,32 @@
       <created>1330903050562</created>
       <updated>1330903050562</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RubyLearning Lesson (Day) 12 - Complete">
+      <created>1330906792429</created>
+      <updated>1330906792429</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="1" width="1366" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27591464" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29115853" sideWeight="0.67304623" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32695374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -559,7 +540,7 @@
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="RubyLearning Lesson (Day) 11 - Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="RubyLearning Lesson (Day) 12 - Complete" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -583,117 +564,94 @@
     <MESSAGE value="RubyLearning Lesson (Day) 10 - Complete" />
     <MESSAGE value="RubyLearning Lesson (Day) 10 - Bonus app added" />
     <MESSAGE value="RubyLearning Lesson (Day) 11 - Complete" />
+    <MESSAGE value="RubyLearning Lesson (Day) 12 - Complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day10/sinatraapp/myapp1.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/sinatraapp/myapp3.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="80" selection-end="80" vertical-scroll-proportion="0.175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/heroku_exday10/myapp3.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="80" selection-end="80" vertical-scroll-proportion="0.175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day10/BonusStockApp/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.05">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.05" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10/BonusStockApp/views/show.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="561" selection-end="561" vertical-scroll-proportion="0.33243242">
-          <folding />
-        </state>
+        <state line="13" column="33" selection-start="561" selection-end="561" vertical-scroll-proportion="0.33243242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10/BonusStockApp/views/new.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3918919">
-          <folding />
-        </state>
+        <state line="16" column="3" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3918919" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10/BonusStockApp/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="0.41878173">
-          <folding />
-        </state>
+        <state line="11" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="0.41878173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10/BonusStockApp/quotes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="171" selection-end="171" vertical-scroll-proportion="0.038071066">
-          <folding />
-        </state>
+        <state line="11" column="27" selection-start="171" selection-end="171" vertical-scroll-proportion="0.038071066" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/my_middleware.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/lobster/my_middleware.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="85" selection-start="135" selection-end="135" vertical-scroll-proportion="0.07614213">
-          <folding />
-        </state>
+        <state line="2" column="85" selection-start="135" selection-end="135" vertical-scroll-proportion="0.07614213" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/lobster/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="48" selection-end="48" vertical-scroll-proportion="0.038071066">
-          <folding />
-        </state>
+        <state line="1" column="25" selection-start="48" selection-end="48" vertical-scroll-proportion="0.038071066" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/RackBuilder/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="356" selection-end="356" vertical-scroll-proportion="0.49492386">
-          <folding />
-        </state>
+        <state line="13" column="64" selection-start="356" selection-end="356" vertical-scroll-proportion="0.49492386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day12/my_sinatra.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="50" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="50" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day12/my_middleware.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day12/auth_app/my_sinatra2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="0.4568528">
+        <state line="12" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="0.4568528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day13/mongodb1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="21" selection-start="0" selection-end="574" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day13/mongodb2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="0" selection-end="536" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day13/exercise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="39" selection-start="698" selection-end="698" vertical-scroll-proportion="0.7178841">
           <folding />
         </state>
       </provider>
